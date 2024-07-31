@@ -719,7 +719,7 @@ padding-top: 0px;
     
     
  
-    @media screen and (max-width:601px) {
+    @media screen and (max-width:600px) {
         .begining-flex{
             flex:50%;
             justify-content: space-between;
@@ -743,43 +743,248 @@ padding-top: 0px;
             padding:3px 7px;
         }
 
-        .second-flex{
-          display:block;
-          margin-left:20px;
-          margin-bottom: 10px;
-    
+
+        .begining-flex {
+            margin-bottom:30px;
         }
-        .first-imge-under-second-flex{
-           width: 0px;
+        .second-flex {
+            display: grid;
+            margin-left:40px;
+            margin-top: 10px;
         }
-        
-        .the-wtitten-flex p{
+
+        .the-wtitten-flex p {
             font-size: 10px;
+            width: 50%;
         }
 
-        .third-flex{
-            flex:100%;
+
+
+      
+        .third-flex {
+            display: grid;
+            position: relative;
+            margin-bottom: 30px;
         }
-        
-.first-content-under-third-flex{
-    padding:0px;
-}
+      
+        .first-content-under-third-flex {
+            margin:0px;
+            width: 100%;
+            max-width: 100%;
+        }
+        .first-sub-content-under-third-flex h1 {
+            font-size: 30px;
+            margin-left: 80px;
+            margin-top: 60px;
+        }
+        .first-sub-content-under-third-flex p {
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+            /* padding-right: 15px; */
+        }
+    
+        .first-sub-content-under-third-flex a {
+            margin:130px;
+            margin-bottom:50px;
+        }
 
-.first-sub-content-under-third-flex h1{
-    font-size: 40px;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    font-weight: bolder;
-    text-align: center;
-}
 
-.first-sub-content-under-third-flex p{
-    margin: 6px;
-    font-weight:light;
-    font-size: 15px;
-    padding: 10px;
-}
+       .first-img-sub-content-under-third-flex img {
+            width: 35px;
+            max-width: 100%;
+            position: absolute;
+            top: 17px;
+            left: 250px;
+        }
+        .second-img-sub-content-under-third-flex img {
+            width: 40px;
+            left: 240px;
+            top:80px;
+        }
 
-    }
+        .Second-content-under-third-flex {
+            width: 100%;
+            max-width: 100%;
+            position: relative;
+            margin-top: 40px;
+        }
+        .first-image-Second-content-under-third-flex img {
+            width: 300px;
+        }
+        .second-image-Second-content-under-third-flex img {
+            width: 250px;
+        }
+        .fourth-flex {
+            display: grid;            
+            justify-content: center;
+            margin-bottom: 30px;
+            margin: 10px;
+        }
+        .first-image-under-fourth-flex {
+            width: 100%;
+            margin: 5px;
+        }
+
+        .first-image-under-fourth-flex img {
+            width: 300px;
+        }
+        .first-content-under-fourth-flex {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .first-content-under-fourth-flex h1 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            text-align: center;
+            margin: 15px;
+        }
+        .first-content-under-fourth-flex p {
+            font-size: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 100;
+            font-family: cursive;
+        }
+        .firsts-image-under-fourth-flex {
+            width: 100%;
+            margin-top: 0px;
+        }
+        .first-last-anchor-under-fourth a {
+            margin: 80px;
+        }
+        .first-sub-fifth-flex {
+            width: 100%;
+        }
+        .first-sub-fifth-flex h1 {
+            font-size: 30px;
+        }
+        .first-sub-fifth-flex p {
+            /* color: white; */
+            font-size: 16px;
+            /* text-align: center; */
+        }
+        .first-sub-fifth-flex #burna span{
+        display: none;
+        }
+
+
+        .sixth-flex {
+            display: grid;
+            justify-content: center;
+            padding: 15px;
+            margin: 20px;
+        }
+
+        .first-image-under-sixth-flex {
+            width: 10px;
+        }
+        .first-content-under-sixth-flex {
+            width: 90%;
+            text-align: center;
+        }
+
+       .seventh-flex {
+            display: grid;
+            justify-content: center;
+            
+        }
+        .first-image-under-seventh {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .unflex {
+            margin: 5px;
+            width: 100%;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .image-under-unflex img {
+            width: 90%;
+            max-width: 100%;
+        }
+        .image-under-unflex {
+            margin-right: 50px;
+            max-width: 100%;
+            margin-left: 50px;
+            width: 100%;
+        }
+
+        .first-content-under-eight-flex {
+            width: 100%;
+        }
+        .image-under-unflex {
+            /* margin-right: 0px; */
+            max-width: 100%;
+            /* margin-left: 0px; */
+            width: 100%;
+            margin: 20px;
+        }
+        .eight-flex {
+            width: 80%;
+            display: grid;
+            justify-content: center;
+            margin-bottom: 30px;
+            margin-left: 30px;
+        }
+        .second-content-under-eight-flex {
+            border: 1px solid blanchedalmond;
+            padding: 10px;
+
+        }
+        .last-underBorder {
+            margin-top: 20px;
+            margin-left: 55px;
+            margin-bottom: 20px;
+        }
+
+
+
+
+
+
+        .sacks {
+            display: grid;
+            flex-wrap: wrap;
+            margin-left: 10px;
+            margin-top: 40px;
+            max-width: 100%;
+        }
+        .sack-one {
+            width: 100%;
+        }
+        #unity {
+            font-size: 25px;
+        }
+        .sack-one p {
+            font-size: 15px;
+            margin-right: 20px;
+        }
+
+        .padlock-image img {
+            width: 300px;
+        }
+        .sack-two {
+            width: 100%;
+        }
+        #unity {
+            font-size: 20px;
+        }
+        #hitch {
+            color: blanchedalmond;
+            font-size: 15px;
+        }
+        .sack-three {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .last-child p {
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        }
+    
         
     
